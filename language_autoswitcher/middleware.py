@@ -9,9 +9,9 @@ class LanguageAutoSwitcherMiddleware:
 
     def __init__(self, get_response):
         self.get_response = get_response
-        if "LANGUAGES_KEY" in settings:
+        if hasattr(settings, "LANGUAGES_KEY"):
             self.languages_key = settings.LANGUAGES_KEY
-        if "LANGUAGE_COOKIE_NAME" in settings:
+        if hasattr(settings, "LANGUAGE_COOKIE_NAME")
             self.language_cookie_name = settings.LANGUAGE_COOKIE_NAME
 
     def process_request(self, request):
