@@ -3,6 +3,6 @@
 ```
 MiDDLEWARE = (
     ...
-    'language_autoswitcher.middlelware.AutoSwitcher',
+    'language_autoswitcher.middlelware.LanguageAutoSwitcher',
 )
 ```
