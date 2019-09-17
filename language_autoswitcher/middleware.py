@@ -11,7 +11,7 @@ class LanguageAutoSwitcherMiddleware:
         self.get_response = get_response
         if hasattr(settings, "LANGUAGES_KEY"):
             self.languages_key = settings.LANGUAGES_KEY
-        if hasattr(settings, "LANGUAGE_COOKIE_NAME")
+        if hasattr(settings, "LANGUAGE_COOKIE_NAME"):
             self.language_cookie_name = settings.LANGUAGE_COOKIE_NAME
 
     def process_request(self, request):
