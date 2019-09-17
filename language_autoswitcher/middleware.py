@@ -42,6 +42,7 @@ class LanguageAutoSwitcherMiddleware:
         if 'Content-Language' not in response:
             response['Content-Language'] = translation.get_language()
         translation.deactivate()
+        return response
 
     def __call__(self, request):
         request = self.process_request(request)
