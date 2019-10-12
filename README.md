@@ -1,4 +1,8 @@
 # Usage
+```
+pip install django-language-autoswitcher
+```
+
 
 ```
 MiDDLEWARE = (
