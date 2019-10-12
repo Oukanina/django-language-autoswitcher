@@ -1,6 +1,6 @@
 from setuptools import setup
 
-version = "0.0.1"
+version = "0.0.2"
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -15,9 +15,8 @@ setup(
     url="https://github.com/Oukanina/django-language-autoswitcher",
     author="Oukanina",
     author_email="guo.ke.ke.a@gmail.com",
-    package=["language_autoswitcher"],
-    py_modules=[],
-    install_requires=["django"],
+    packages=["language_autoswitcher"],
+    install_requires=["Django>=2.0"],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Environment :: Web Environment",

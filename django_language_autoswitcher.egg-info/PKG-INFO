@@ -1,12 +1,16 @@
 Metadata-Version: 2.1
 Name: django-language-autoswitcher
-Version: 0.0.1
+Version: 0.0.2
 Summary: Switch language by wind
 Home-page: https://github.com/Oukanina/django-language-autoswitcher
 Author: Oukanina
 Author-email: guo.ke.ke.a@gmail.com
 License: UNKNOWN
 Description: # Usage
+        ```
+        pip install django-language-autoswitcher
+        ```
+        
         
         ```
         MiDDLEWARE = (
