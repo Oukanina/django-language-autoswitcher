@@ -7,7 +7,7 @@ pip install django-language-autoswitcher
 ```
 MiDDLEWARE = (
     # ...
-    'language_autoswitcher.middlelware.LanguageAutoSwitcherMiddleware',
+    'language_autoswitcher.middleware.LanguageAutoSwitcherMiddleware',
 )
 
 # Default language is English ('en')
